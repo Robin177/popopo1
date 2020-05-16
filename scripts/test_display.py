@@ -41,6 +41,14 @@ class TestDisplay:
         self.display_page.input_search_text("1")
         # 点击返回
         self.display_page.click_back()
+		
+	def test_mobile_display_input8(self):
+        # 点击放大镜
+        self.display_page.click_search()
+        # 输入文字
+        self.display_page.input_search_text("1")
+        # 点击返回
+        self.display_page.click_back()
 
 
 
